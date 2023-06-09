@@ -1,3 +1,7 @@
+body {
+  /* overflow: hidden; */
+  font-size: 2rem;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.di {
+  display: flex;
+}
+.st {
+  position: absolute;
+}
+.dis {
+  display: none;
+}
+.tex {
+  font-size: 400px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  flex-wrap: nowrap;
 }
