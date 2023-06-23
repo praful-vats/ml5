@@ -1,5 +1,11 @@
 body {
-  /* overflow: hidden; */
+  overflow: hidden;
+  /* font-size: 2rem; */
+  /* cursor: none; */
+  /* background-color: black; */
+  transition: all 0.3s ease;
+}
+.text {
   font-size: 2rem;
 }
 .App {
@@ -55,3 +61,148 @@ body {
   white-space: nowrap;
   flex-wrap: nowrap;
 }
+
+
+/* App.css */
+
+
+
+.right-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right-nav li {
+  border-bottom: 1px solid black;
+}
+
+.nav-n {
+  margin-right: 0.5rem;
+  margin-left: 20px;
+}
+.nav-h {
+  text-align: left;
+  margin-left: 25vw;
+  width: 50px;
+}
+.nav-t {
+  margin-left: 25vw;
+}
+.nav-a {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  transition: all 0.5s ease;
+}
+.nav-link:active,
+.nav-link:focus {
+  background-color: black;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: rgb(209, 209, 209);
+  color: rgb(255, 255, 255);
+}
+.text {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.ast {
+  font-size: 50px;
+  float: right;
+  margin-right: 20px;
+}
+.ins {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.inst, .inst2 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.homepage {
+  margin-top: 20px;
+  opacity: 0.5;
+}
+/* .text {
+  opacity: 0.5;
+  transition: opacity 2s;
+}
+
+.initial-state {
+  opacity: 0.5;
+}
+
+.hovering {
+  opacity: 1;
+} */
+
+.grid {
+  margin-top: 2.5%;
+  margin-left: 33%;
+  display: grid;
+  grid-template-columns: repeat(20, 20px); 
+  grid-template-rows: repeat(20, 20px); 
+  gap: 1px; 
+}
+
+/* .cell {
+  width: 20px; 
+  height: 20px; 
+  background-color: #ccc; 
+  border-radius: 15%;
+  transition: all 1s ease-in-out;
+}
+.circle {
+  border-radius: 50%; 
+  transition: all 1s ease-in-out;
+} */
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 0%;
+  transition: all 1s ease-in-out;
+}
+
+.circle {
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+}
+
+
+
+
+
+/* .maze {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.maze-cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+
+.wall {
+  background-color: #000;
+}
+
+.path {
+  background-color: #fff;
+} */
